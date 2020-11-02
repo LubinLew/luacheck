@@ -1,0 +1,3 @@
+#/usr/bin/env bash
+
+exec 'lua' -e 'package.path="/usr/local/luacheck/src/?/init.lua;/usr/local/luacheck/src/?.lua;;";package.cpath="/usr/local/luacheck/src/luacheck/lfs/target/?.so;;"' '/usr/local/luacheck/src/luacheck.lua' "$@"
