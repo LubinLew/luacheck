@@ -1,0 +1,6 @@
+[submodule "src/luacheck/lfs/luafilesystem"]
+	path = src/luacheck/lfs/luafilesystem
+	url = https://github.com/keplerproject/luafilesystem.git
+[submodule "src/luacheck/argparse/argparse"]
+	path = src/luacheck/argparse/argparse
+	url = https://github.com/mpeterv/argparse.git
